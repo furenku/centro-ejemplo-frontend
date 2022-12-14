@@ -1,0 +1,16 @@
+.ArtistList {
+
+
+    /* df */
+    display: flex;
+
+    /* flw */
+    flex-wrap: wrap;
+
+    /* jc */
+    justify-content: space-evenly;
+
+
+    gap: 2rem;
+
+}

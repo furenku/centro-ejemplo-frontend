@@ -1,0 +1,33 @@
+.ArtistPreview {
+
+
+    /* w18rem */
+    width: 18rem;
+
+    /* p1rem */
+    padding: 1rem;
+    /* bgc */
+    background-color: #fff;
+    /* bxsh */
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.1);
+
+
+}
+
+
+.ArtistPreview img {
+    /* w18rem */
+    width: 18rem;
+    /* h18rem */
+    height: 18rem;
+    /* obfi */
+    object-fit: cover;
+}
+
+
+.ArtistPreview h1 {
+
+    /* fz1.5rem */
+    font-size: 1.25rem;
+
+}
