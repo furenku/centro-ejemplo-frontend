@@ -1,18 +1,18 @@
 import PropTypes from 'prop-types';
 
-import "./List.css"
+import "./ArtistList.css"
 
 
-import Preview from "../Preview/Preview"
+import ArtistPreview from "../ArtistPreview/ArtistPreview"
 
 
-const List = ({
+const ArtistList = ({
     elements
 }) => {
 
 
     const elementsList = elements.map( (element, i) => (
-        <Preview {...element} key={ "element_" + i }/>
+        <ArtistPreview {...element} key={ "element_" + i }/>
     ))
 
 
@@ -34,12 +34,12 @@ const List = ({
 }
 
 
-List.propTypes = {
+ArtistList.propTypes = {
     elements: PropTypes.array
 }
 
-List.defaultProps = {
+ArtistList.defaultProps = {
     elements: []
 }
 
-export default List
+export default ArtistList

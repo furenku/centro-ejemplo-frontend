@@ -1,18 +1,18 @@
 import React from 'react';
 
 
-import Preview from '../../../components/Artists/Preview/Preview';
+import ArtistPreview from '../../../components/Artists/ArtistPreview/ArtistPreview';
 
 
 export default {
-  title: 'Preview',
-  component: Preview,
+  title: 'ArtistPreview',
+  component: ArtistPreview,
 //   argTypes: {
 //     backgroundColor: { control: 'color' },
 //   },
 };
 
-const Template = (args) => <Preview {...args} />;
+const Template = (args) => <ArtistPreview {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {

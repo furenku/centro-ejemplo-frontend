@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 
-import List from "../../components/Artists/List/List"
+import ArtistList from "../../components/Artists/ArtistList/ArtistList"
 
 
 const fakeElements = [
@@ -36,7 +36,7 @@ const Artists = () => {
 
     })
 
-    return <List elements={ elements }/>
+    return <ArtistList elements={ elements }/>
 
 }
 

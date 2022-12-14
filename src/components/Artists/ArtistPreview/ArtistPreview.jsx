@@ -1,8 +1,8 @@
-import "./Preview.css"
+import "./ArtistPreview.css"
 
 import PropTypes from 'prop-types';
 
-const Preview = ({
+const ArtistPreview = ({
     name,
     image
 }) => {
@@ -19,15 +19,15 @@ const Preview = ({
 
 }
 
-Preview.propTypes = {
+ArtistPreview.propTypes = {
     name: PropTypes.string,
     image: PropTypes.string,
 }
 
-Preview.defaultProps = {
+ArtistPreview.defaultProps = {
     name: "Artist Preview",
     image: "https://fakeimg.pl/300x600",
 }
 
 
-export default Preview
+export default ArtistPreview

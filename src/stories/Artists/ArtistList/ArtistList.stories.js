@@ -1,15 +1,15 @@
 import React from 'react';
 
 
-import List from '../../../components/Artists/List/List';
+import ArtistList from '../../../components/Artists/ArtistList/ArtistList';
 
 
 export default {
-  title: 'List',
-  component: List,
+  title: 'ArtistList',
+  component: ArtistList,
 };
 
-const Template = (args) => <List {...args} />;
+const Template = (args) => <ArtistList {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
