@@ -3,18 +3,6 @@ import { useState, useEffect } from "react"
 import ArtistList from "../../components/Artists/ArtistList/ArtistList"
 
 
-const fakeElements = [
-    {
-        name: "Prince"
-    },
-    {
-        name: "King Gizzard & The Lizard Wizard"
-    },
-    {
-        name: "Taylor Swift"
-    },
-]
-
 const Artists = () => {
 
     const [ elements, setElements ] = useState([])
